@@ -22,15 +22,11 @@ const Project = () => {
           opacity:1,
          }}
         className=' md:top-28 lg:flex flex-col  items-center p-10 '>
-          <Image
-           width='200'
-           height='200'
-           priority
-           
-          src="/cal.jpg" alt="kjvj" />
-         <p className='text-gray-500 mt-10 lg:p-5 tracking-[3px] text-2xl'>Calculator </p>
-         <p className='text-gray-500 mt-2 lg:p-5 tracking-[3px]'>JavaScript</p>
-         <p className='text-gray-500 mt-2 lg:p-5 tracking-[3px]'>HTML&&CSS</p>
+
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px]  hover:text-white' href="https://imgbgremove.netlify.app" target='blank'>Image Background Remover</a>
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px]  hover:text-white' href="https://2dobyraushan.netlify.app" target='blank'>ToDo app </a>
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px]  hover:text-white' href="https://animated-dusk-3f0ff3.netlify.app" target='blank'>Weather App</a>
+
 
         </motion.div>
         <motion.div 
@@ -46,16 +42,12 @@ const Project = () => {
           opacity:1,
          }}
         className='lg:flex flex-col  items-center  '>
-          <Image
-          width='200'
-          height='200'
-          priority
-            
-          src="/clone.png" alt="kgkg" />
-         <p className='text-gray-500 mt-10  lg:p-5 tracking-[3px] text-2xl'>SliceIt clone </p>
-         <p className='text-gray-500 mt-2 lg:p-5 tracking-[3px]'>React JS</p>
-         <p className='text-gray-500 mt-2 lg:p-5 tracking-[3px]'>HTML&&Bootstarp</p>
-
+          
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px] hover:text-white' href="https://quiz-app-raushan.netlify.app" target='blank'>Quiz App</a>
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px]  hover:text-white' href="https://calculatorbyraushan.netlify.app" target='blank'>Calculator</a>
+         <a className='text-gray-500 mt-2 lg:p-5 tracking-[3px]  hover:text-white' href="https://raushan.vercel.app/" target='blank'>Portfolio</a>
+          
+         
         </motion.div>
       
     </div>

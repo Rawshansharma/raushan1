@@ -26,7 +26,7 @@ const Skills = () => {
              <h1 className='mb-2'>HTML</h1>
              <h1 className='mb-2'>CSS</h1>
              <h1 className='mb-2'>JAVASCRIPT</h1>
-             <h1 className='mb-2'>PYTHON</h1>
+             <h1 className='mb-2'>C++</h1>
  
              
               </motion.div>
@@ -43,10 +43,12 @@ const Skills = () => {
                     opacity:1,
                    }}
               className=' m-10 text-gray-500 font-bold tracking-[5px]'>
-               <h1 className='mb-2'>BOOTSTARAP CSS</h1>
-               <h1 className='mb-2'>TAILWIND CSS</h1>
+               <h1 className='mb-2'>TAILWIND</h1>
                <h1 className='mb-2'>RACT JS</h1>
                <h1 className='mb-2'>NEXT JS </h1>
+               <h1 className='mb-2'>GIT & GITHUB </h1>
+               <h1 className='mb-2'></h1>
+
                <h1 className='text-md'> <span className='text-[#FF9933]'>still</span>  <span className='text-white'>learning</span> <span className='text-green-500'>.....</span></h1>
               </motion.div>
      </div>
